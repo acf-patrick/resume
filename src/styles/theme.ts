@@ -7,7 +7,7 @@ const theme = {
     quinary: "#969996"
   },
   sizes: {
-    maxWidth: "1403px",
+    maxWidth: "1080px",
     sidebar: "35%"
   }
 };

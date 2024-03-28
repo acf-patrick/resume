@@ -2,6 +2,7 @@ import GlobalStyles from "./styles/globalStyles";
 import styled, { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
 import { Header } from "./components";
+import LangContext, { Language } from "./language.context";
 
 const Container = styled.div`
   margin: auto;
@@ -17,9 +18,11 @@ function App() {
     <>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Container>
-          <Header />
-        </Container>
+        <LangContext.Provider value={Language.EN}>
+          <Container>
+            <Header />
+          </Container>
+        </LangContext.Provider>
       </ThemeProvider>
     </>
   );
