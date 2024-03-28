@@ -1,0 +1,245 @@
+{
+  "keys": {
+    "skills": {
+      "en": "skills",
+      "fr": "compétences"
+    },
+    "languages": {
+      "en": "languages",
+      "fr": "langues"
+    },
+    "hobbies": {
+      "en": "hobbies",
+      "fr": "centre d'intérêt"
+    },
+    "qualities": {
+      "en": "qualities",
+      "fr": "qualités"
+    },
+    "education": {
+      "en": "education",
+      "fr": "formation"
+    },
+    "employment": {
+      "en": "employment",
+      "fr": "expérience professionnelle"
+    },
+    "personalProjects": {
+      "en": "personal projects",
+      "fr": "projets personnels"
+    },
+    "achievements": {
+      "en": "achievements",
+      "fr": "réalisation"
+    },
+    "extracurricularActivities": {
+      "en": "extracurricular activities",
+      "fr": "activités extra-professionnelles"
+    }
+  },
+  "fr": {
+    "name": "Tojoniaina Patrick Miharisoa",
+    "role": "software developer",
+    "mail": "miharisoap@gmail.com",
+    "phone": "+261328631960",
+    "address": "Lot IAH 56 F Avaratsena Itaosy, 102 Antananarivo",
+    "website": "acf-patrick.github.io",
+    "linkedin": "linkedin.com/in/patrick-miharisoa-8b8633227",
+    "github": "github.com/acf-patrick",
+    "skills": [
+      {
+        "name": "C++",
+        "confidence": 1
+      },
+      {
+        "name": "ReactJS",
+        "confidence": 1
+      },
+      {
+        "name": "Rust",
+        "confidence": 1
+      },
+      {
+        "name": "Python",
+        "confidence": 1
+      },
+      {
+        "name": "NestJS",
+        "confidence": 1
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.75
+      }
+    ],
+    "languages": [
+      {
+        "name": "malagasy",
+        "confidence": 1
+      },
+      {
+        "name": "français",
+        "confidence": 1
+      },
+      {
+        "name": "English",
+        "confidence": 0.75
+      }
+    ],
+    "hobbies": ["Music", "Competitive programming"],
+    "qualities": ["Rigoureux", "Persévérant"],
+    "education": [
+      {
+        "degree": "Licence en Probabilité, Statistique, Algèbre Algorithmique et Calcul Numérique (P.A.A.C)",
+        "school": "University of Antananarivo",
+        "city": "Antananarivo",
+        "start": "2019",
+        "end": "2021"
+      }
+    ],
+    "employment": [
+      {
+        "position": "C++ Developer",
+        "employer": "Futurmap Data",
+        "city": "Antananarivo",
+        "start": "mars 2022",
+        "end": "mars 2024",
+        "description": "- Développer des extensions sur GstarCAD pour faciliter la tâche des dessinateurs\n- Conception d'interface utilisateur avec Tauri Rust et Qt C++\n- Manipulation de données géographiques : image raster et nuage de points LiDAR"
+      },
+      {
+        "position": "C++ and Python Trainer",
+        "employer": "MISA",
+        "city": "Antananarivo",
+        "start": "sept. 2022",
+        "end": "oct. 2022",
+        "description": "Formation sur les bases de la programmation avec les langaes C++ et Python"
+      },
+      {
+        "position": "Python Developer",
+        "employer": "Corellia",
+        "city": "Antananarivo",
+        "start": "mars 2024",
+        "end": null,
+        "description": "Création de solution et automatisation de tâches"
+      }
+    ],
+    "personalProjects": [
+      "Création serveur Rest API de nuage de points (LAS/LAZ, e57, PTS) avec __Rust__ et __GraphQL__",
+      "Création d'un lecteur de musique avec __ReactJs__ en frontend, __Tauri__ pour la webview et __Actix-web__ pour l'API REST et serveur web socket.[Repo GitHub](https://github.com/acf-patrick/music-player)",
+      "Création _application web_ de video streaming avec __ReactJs__ et __NestJs__, utilisant __Firebase__ storage comme stockage de données. [Repo GitHub](https://github.com/acf-patrick/nest-react-stream-app)"
+    ],
+    "achievements": [
+      "Première place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
+      "Première place WCC 2022 (Techzara Weekly coding challenge) algo",
+      "Première place WCC 2032 (Techzara Weekly coding challenge) algo"
+    ],
+    "extracurricularActivities": [
+      "Music",
+      "Développement de jeux vidéos sur Unity",
+      "Développement de jeux vidéos en C++"
+    ]
+  },
+  "en": {
+    "name": "Tojoniaina Patrick Miharisoa",
+    "role": "software developer",
+    "mail": "miharisoap@gmail.com",
+    "phone": "+261328631960",
+    "address": "Lot IAH 56 F Avaratsena Itaosy, 102 Antananarivo",
+    "website": "acf-patrick.github.io",
+    "linkedin": "linkedin.com/in/patrick-miharisoa-8b8633227",
+    "github": "github.com/acf-patrick",
+    "skills": [
+      {
+        "name": "C++",
+        "confidence": 1
+      },
+      {
+        "name": "ReactJS",
+        "confidence": 1
+      },
+      {
+        "name": "Rust",
+        "confidence": 1
+      },
+      {
+        "name": "Python",
+        "confidence": 1
+      },
+      {
+        "name": "NestJS",
+        "confidence": 1
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.75
+      }
+    ],
+    "languages": [
+      {
+        "name": "malagasy",
+        "confidence": 1
+      },
+      {
+        "name": "français",
+        "confidence": 1
+      },
+      {
+        "name": "English",
+        "confidence": 0.75
+      }
+    ],
+    "hobbies": ["Music", "Competitive programming"],
+    "qualities": ["Rigorous", "Perseverant"],
+    "education": [
+      {
+        "degree": "Bachelor in Probability and Statistics, Algorithmic Algebra and Numerical Analysis",
+        "school": "University of Antananarivo",
+        "city": "Antananarivo",
+        "start": "2019",
+        "end": "2021"
+      }
+    ],
+    "employment": [
+      {
+        "position": "C++ Developer",
+        "employer": "Futurmap Data",
+        "city": "Antananarivo",
+        "start": "March 2022",
+        "end": "March 2024",
+        "description": "- Provide tools for CAD designers by developing extension for GstarCAD software.\n- Develop user interface using Qt C++ and Tauri Rust with web technologies.\n- Geographic data manipulation : raster images and LiDAR point clouds."
+      },
+      {
+        "position": "C++ and Python Trainer",
+        "employer": "MISA",
+        "city": "Antananarivo",
+        "start": "Sep 2022",
+        "end": "Oct 2022",
+        "description": "Basic training in C++ and Python programming languages for beginners"
+      },
+      {
+        "position": "Python Developer",
+        "employer": "Corellia",
+        "city": "Antananarivo",
+        "start": "March 2024",
+        "end": null,
+        "description": "Develop solutions and tasks automation"
+      }
+    ],
+    "personalProjects": [
+      "SAGE web application for Pharmacy management built with __React__, __NestJs__ and __Rust__. [Github repo](https://github.com/acf-patrick/SAGE-pharmacy)",
+      "_Streamly_ : a web application for video streaming built with __React__ and __NestJs__. [Github repo](https://github.com/acf-patrick/Nest-React-Stream-App)",
+      "Music-player application built with __ReactJs__ in frontend, __Tauri__ fo rwebview and __Actix-web__ for REST API and web socket server. [Github repo](https://github.com/acf-patrick/music-player)",
+      "Chat -application built with __reactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)"
+    ],
+    "achievements": [
+      "First place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
+      "First place WCC 2022 (Techzara Weekly coding challenge) algo",
+      "First place WCC 2032 (Techzara Weekly coding challenge) algo"
+    ],
+    "extracurricularActivities": [
+      "Music",
+      "Game Development with Unity Game Engine",
+      "Game Development with C++"
+    ]
+  }
+}
