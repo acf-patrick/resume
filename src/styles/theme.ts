@@ -8,7 +8,7 @@ const theme = {
   },
   sizes: {
     maxWidth: "1080px",
-    sidebar: "35%"
+    sidebar: "30%"
   }
 };
 

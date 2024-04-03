@@ -6,6 +6,10 @@ const GlobalStyles = createGlobalStyle`
     src: url('/Poppins-Regular.ttf');
 }
 
+html {
+    font-size: 14px;
+}
+
 body {
     background: #252525;
     margin: unset;

@@ -5,6 +5,9 @@ export enum Language {
   EN,
 }
 
-const LangContext = createContext(Language.EN);
+const LangContext = createContext({
+  lang: Language.EN,
+  setLang: (_: Language) => {},
+});
 
 export default LangContext;

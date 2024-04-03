@@ -3,38 +3,31 @@ import { FaHome, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { TbWorld } from "react-icons/tb";
 import styled from "styled-components";
-import data from "../data.json";
-import LangContext, { Language } from "../language.context";
+import data from "./data.json";
+import LangContext, { Language } from "./language.context";
 
 const StyledHeader = styled.header`
-  position: relative;
-  padding: 4rem 3rem 3rem;
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: ${(props) => props.theme.sizes.sidebar};
-    background: ${(props) => props.theme.colors.secondary};
-  }
+  // position: relative;
+  padding: 3rem 3rem 2rem;
 
   .inner {
     background: ${(props) => props.theme.colors.tertiary};
     position: relative;
     z-index: 1;
-    border: 1.25rem solid white;
-    padding: 2rem;
+    border: 1rem solid white;
+    padding: 1.5rem 1.25rem 1rem;
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   h1,
   h2 {
     margin: unset;
+  }
+
+  h2 {
+    font-weight: normal;
   }
 
   ul {
@@ -52,7 +45,7 @@ const StyledHeader = styled.header`
     align-items: center;
     gap: 0.75rem;
 
-    &>:last-child {
+    & > :last-child {
       font-size: 0.95rem;
       opacity: 0.8;
     }
@@ -90,7 +83,7 @@ const StyledHeader = styled.header`
 `;
 
 export default function Header() {
-  const language = useContext(LangContext);
+  const { lang: language } = useContext(LangContext);
   const datas = language === Language.EN ? data.en : data.fr;
 
   return (
