@@ -43,6 +43,7 @@ function LanguageButton() {
     right: 1rem;
     border-radius: 5px;
     border: 2px solid #bebebe;
+    z-index: 10;
 
     button {
       all: unset;
