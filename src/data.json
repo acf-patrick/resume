@@ -65,7 +65,7 @@
       },
       {
         "name": "NestJS",
-        "confidence": 1
+        "confidence": 0.75
       },
       {
         "name": "PostgreSQL",
@@ -167,7 +167,7 @@
       },
       {
         "name": "NestJS",
-        "confidence": 1
+        "confidence": 0.75
       },
       {
         "name": "PostgreSQL",
