@@ -47,7 +47,7 @@ function LanguageButton() {
 
     button {
       all: unset;
-      color: white;
+      color: #989898;
       padding: 5px 10px;
       cursor: pointer;
 
@@ -57,6 +57,7 @@ function LanguageButton() {
     }
 
     .active {
+      color: white;
       background: #373737;
     }
   `;
