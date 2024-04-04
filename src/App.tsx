@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import Header from "./Header";
 import LangContext, { Language } from "./language.context";
@@ -35,6 +35,52 @@ const Container = styled.div`
   }
 `;
 
+function LanguageButton() {
+  const { lang, setLang } = useContext(LangContext);
+
+  const StyledButton = styled.div`
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 5px;
+    border: 2px solid #bebebe;
+
+    button {
+      all: unset;
+      color: white;
+      padding: 5px 10px;
+      cursor: pointer;
+
+      &:last-of-type {
+        border-left: 1px solid white;
+      }
+    }
+
+    .active {
+      background: #373737;
+    }
+  `;
+
+  return (
+    <StyledButton>
+      <button
+        type="button"
+        onClick={() => setLang(Language.EN)}
+        className={lang === Language.EN ? "active" : ""}
+      >
+        En
+      </button>
+      <button
+        type="button"
+        onClick={() => setLang(Language.FR)}
+        className={lang === Language.FR ? "active" : ""}
+      >
+        Fr
+      </button>
+    </StyledButton>
+  );
+}
+
 function App() {
   const [lang, setLang] = useState(Language.EN);
 
@@ -61,6 +107,7 @@ function App() {
             },
           }}
         >
+          <LanguageButton />
           <Container>
             <Header />
             <main>

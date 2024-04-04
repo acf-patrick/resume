@@ -229,7 +229,7 @@
       "SAGE web application for Pharmacy management built with __React__, __NestJs__ and __Rust__. [Github repo](https://github.com/acf-patrick/SAGE-pharmacy)",
       "_Streamly_ : a web application for video streaming built with __React__ and __NestJs__. [Github repo](https://github.com/acf-patrick/Nest-React-Stream-App)",
       "Music-player application built with __ReactJs__ in frontend, __Tauri__ fo rwebview and __Actix-web__ for REST API and web socket server. [Github repo](https://github.com/acf-patrick/music-player)",
-      "Chat -application built with __reactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)"
+      "Chat - application built with __ReactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)"
     ],
     "achievements": [
       "First place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
