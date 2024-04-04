@@ -9,10 +9,10 @@ import theme from "./styles/theme";
 const Container = styled.div`
   margin: auto;
   max-width: ${(props) => props.theme.sizes.maxWidth};
-  height: 1400px;
   background: white;
   box-shadow: 0px 0 15px #2e2e2e;
   position: relative;
+  padding-bottom: 2rem;
 
   &:before {
     content: "";
@@ -26,7 +26,6 @@ const Container = styled.div`
 
   main {
     display: grid;
-    height: 100px;
     grid-template-columns: ${(props) => props.theme.sizes.sidebar} auto;
 
     & > div {
