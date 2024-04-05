@@ -99,7 +99,7 @@
     ],
     "employment": [
       {
-        "position": "C++ Developer",
+        "position": "Développeur C++",
         "employer": "Futurmap Data",
         "city": "Antananarivo",
         "start": "mars 2022",
@@ -107,7 +107,7 @@
         "description": "- Développer des extensions sur GstarCAD pour faciliter la tâche des dessinateurs\n- Conception d'interface utilisateur avec Tauri Rust et Qt C++\n- Manipulation de données géographiques : image raster et nuage de points LiDAR"
       },
       {
-        "position": "C++ and Python Trainer",
+        "position": "Formateur",
         "employer": "MISA",
         "city": "Antananarivo",
         "start": "sept. 2022",
@@ -115,7 +115,7 @@
         "description": "Formation sur les bases de la programmation avec les langaes C++ et Python"
       },
       {
-        "position": "Python Developer",
+        "position": "Développeur Python",
         "employer": "Corellia",
         "city": "Antananarivo",
         "start": "mars 2024",
@@ -131,7 +131,7 @@
     "achievements": [
       "Première place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
       "Première place WCC 2022 (Techzara Weekly coding challenge) algo",
-      "Première place WCC 2032 (Techzara Weekly coding challenge) algo"
+      "Première place WCC 2023 (Techzara Weekly coding challenge) algo"
     ],
     "extracurricularActivities": [
       "Music",
@@ -228,13 +228,13 @@
     "personalProjects": [
       "SAGE web application for Pharmacy management built with __React__, __NestJs__ and __Rust__. [Github repo](https://github.com/acf-patrick/SAGE-pharmacy)",
       "_Streamly_ : a web application for video streaming built with __React__ and __NestJs__. [Github repo](https://github.com/acf-patrick/Nest-React-Stream-App)",
-      "Music-player application built with __ReactJs__ in frontend, __Tauri__ fo rwebview and __Actix-web__ for REST API and web socket server. [Github repo](https://github.com/acf-patrick/music-player)",
+      "Music-player application built with __ReactJs__ in frontend, __Tauri__ for webview and __Actix-web__ for REST API and web socket server. [Github repo](https://github.com/acf-patrick/music-player)",
       "Chat - application built with __ReactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)"
     ],
     "achievements": [
       "First place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
       "First place WCC 2022 (Techzara Weekly coding challenge) algo",
-      "First place WCC 2032 (Techzara Weekly coding challenge) algo"
+      "First place WCC 2023 (Techzara Weekly coding challenge) algo"
     ],
     "extracurricularActivities": [
       "Music",

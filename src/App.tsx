@@ -34,33 +34,33 @@ const Container = styled.div`
   }
 `;
 
+const StyledButton = styled.div`
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 5px;
+  border: 2px solid #bebebe;
+  z-index: 10;
+
+  button {
+    all: unset;
+    color: #989898;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:last-of-type {
+      border-left: 1px solid white;
+    }
+  }
+
+  .active {
+    color: white;
+    background: #373737;
+  }
+`;
+
 function LanguageButton() {
   const { lang, setLang } = useContext(LangContext);
-
-  const StyledButton = styled.div`
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    border-radius: 5px;
-    border: 2px solid #bebebe;
-    z-index: 10;
-
-    button {
-      all: unset;
-      color: #989898;
-      padding: 5px 10px;
-      cursor: pointer;
-
-      &:last-of-type {
-        border-left: 1px solid white;
-      }
-    }
-
-    .active {
-      color: white;
-      background: #373737;
-    }
-  `;
 
   return (
     <StyledButton>

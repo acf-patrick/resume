@@ -7,8 +7,21 @@ import data from "./data.json";
 import LangContext, { Language } from "./language.context";
 
 const StyledHeader = styled.header`
-  // position: relative;
   padding: 3rem 3rem 2rem;
+
+  @media (max-width: ${({ theme }) => theme.screen.m}) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    .picture {
+      padding: unset !important;
+    }
+  }
 
   .inner {
     background: ${(props) => props.theme.colors.tertiary};
