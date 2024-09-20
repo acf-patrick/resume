@@ -41,7 +41,7 @@ export default function RightSection() {
           end: employment.end ? employment.end : undefined,
           title: employment.position,
           description: employment.description,
-        }))}
+        })).reverse()}
       />
       <FreeSection
         title={

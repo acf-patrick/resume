@@ -115,18 +115,27 @@
         "description": "Formation sur les bases de la programmation avec les langaes C++ et Python"
       },
       {
-        "position": "Développeur Python",
+        "position": "Développeur Rust",
         "employer": "Corellia",
         "city": "Antananarivo",
         "start": "mars 2024",
-        "end": null,
+        "end": "mai 2024",
         "description": "Création de solution et automatisation de tâches"
+      },
+      {
+        "position": "Développeur C++",
+        "employer": "Astek Madagascar",
+        "city": "Antananarivo",
+        "start": "mai 2024",
+        "end": null,
+        "description": "- Conception d'interfaces graphiques avec Qt QML\n- Développement d'application en système embarqué"
       }
     ],
     "personalProjects": [
       "Création serveur Rest API de nuage de points (LAS/LAZ, e57, PTS) avec __Rust__ et __GraphQL__",
       "Création d'un lecteur de musique avec __ReactJs__ en frontend, __Tauri__ pour la webview et __Actix-web__ pour l'API REST et serveur web socket.[Repo GitHub](https://github.com/acf-patrick/music-player)",
-      "Création _application web_ de video streaming avec __ReactJs__ et __NestJs__, utilisant __Firebase__ storage comme stockage de données. [Repo GitHub](https://github.com/acf-patrick/nest-react-stream-app)"
+      "Création _application web_ de video streaming avec __ReactJs__ et __NestJs__, utilisant __Firebase__ storage comme stockage de données. [Repo GitHub](https://github.com/acf-patrick/nest-react-stream-app)",
+      "Bibliothèque C++ basé sur l'architecture ECS [Github repo](https://github.com/acf-patrick/ECS)"
     ],
     "achievements": [
       "Première place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
@@ -217,19 +226,28 @@
         "description": "Basic training in C++ and Python programming languages for beginners"
       },
       {
-        "position": "Python Developer",
+        "position": "Rust Developer",
         "employer": "Corellia",
         "city": "Antananarivo",
         "start": "March 2024",
-        "end": null,
+        "end": "Mai 2024",
         "description": "Develop solutions and tasks automation"
+      },
+      {
+        "position": "C++ Developer",
+        "employer": "Astek Madagascar",
+        "city": "Antananarivo",
+        "start": "Mai 2024",
+        "end": null,
+        "description": "- User interface creation with Qt QML\n- Embedded system application development"
       }
     ],
     "personalProjects": [
       "SAGE web application for Pharmacy management built with __React__, __NestJs__ and __Rust__. [Github repo](https://github.com/acf-patrick/SAGE-pharmacy)",
       "_Streamly_ : a web application for video streaming built with __React__ and __NestJs__. [Github repo](https://github.com/acf-patrick/Nest-React-Stream-App)",
       "Music-player application built with __ReactJs__ in frontend, __Tauri__ for webview and __Actix-web__ for REST API and web socket server. [Github repo](https://github.com/acf-patrick/music-player)",
-      "Chat - application built with __ReactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)"
+      "Chat - application built with __ReactJs__ and __Actix-web__. [Github repo](https://github.com/acf-patrick/rust_web_socket)",
+      "ECS library written in C++ for game development [Github repo](https://github.com/acf-patrick/ECS)"
     ],
     "achievements": [
       "First place MATCodenewbiese 2020 (Malagasy Algo Tournament)",
